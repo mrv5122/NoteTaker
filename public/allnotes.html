@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- stylesheets -->
+    <!-- <link rel="stylesheet" href="#" /> -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <title>All Notes</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron text-center">
+        <h1>NoteTaker</h1>
+        <br />
+        <h3>Viewing All Saved Notes.</h3>
+        <br />
+
+        <div class="routing-block">
+          <!-- <a href="/allnotes"
+                      ><button class="btn btn-lg btn-primary">View Notes</button></a
+                    > -->
+          <a href="/"
+            ><button class="btn btn-lg btn-primary">Search Notes</button></a
+          >
+          <a href="/newnote"
+            ><button class="btn btn-lg btn-primary">Add New Note</button></a
+          >
+        </div>
+      </div>
+
+      <div class="panel panel-default" id="content-block">
+          <div class="panel-heading"><h3 class="panel-title"><strong>Saved Notes</strong></h3></div>
+          <div class="panel-body" id="well-selection">
+              <!-- content will go here -->
+          </div>
+      </div>
+    </div>
+<br>
+    <footer class="footer">
+      <div class="container text-center">
+        <p><a href="#">API Note Link</a> | <a href="#">GitHub Repository</a></p>
+      </div>
+    </footer>
+    <!-- app script -->
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
